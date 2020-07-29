@@ -1,0 +1,217 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2450 1350 2850 1700
+U 5F0E3900
+F0 "Power Suply" 50
+F1 "Power Suply.sch" 50
+F2 "in_pwr_supply" I L 2450 2100 50 
+$EndSheet
+$Sheet
+S 2450 3400 2850 1450
+U 5F0E396B
+F0 "Peripherals" 50
+F1 "Peripherals.sch" 50
+$EndSheet
+$Comp
+L Connector:Barrel_Jack_Switch J1
+U 1 1 5F1B5C44
+P 1050 2200
+F 0 "J1" H 1107 2517 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 1107 2426 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1100 2160 50  0001 C CNN
+F 3 "~" H 1100 2160 50  0001 C CNN
+	1    1050 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2200 1350 2300
+Connection ~ 1350 2300
+$Comp
+L power:GND #PWR06
+U 1 1 5F1B645F
+P 1350 2450
+F 0 "#PWR06" H 1350 2200 50  0001 C CNN
+F 1 "GND" H 1355 2277 50  0000 C CNN
+F 2 "" H 1350 2450 50  0001 C CNN
+F 3 "" H 1350 2450 50  0001 C CNN
+	1    1350 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2300 1350 2450
+Wire Wire Line
+	1350 2100 2450 2100
+$Sheet
+S 5500 1350 2750 1700
+U 5F0E3947
+F0 "Sistem In Package" 50
+F1 "System In Package.sch" 50
+F2 "UART0_TX" O R 8250 2850 50 
+F3 "UART0_RX" I R 8250 2950 50 
+$EndSheet
+Wire Wire Line
+	9350 3550 8950 3550
+Text Label 8950 3550 0    50   ~ 0
+UART_TX
+Wire Wire Line
+	9350 3650 8950 3650
+Text Label 8450 2850 0    50   ~ 0
+UART_TX
+Wire Wire Line
+	8250 2850 8450 2850
+Wire Wire Line
+	8250 2950 8450 2950
+Text Label 8450 2950 0    50   ~ 0
+UART_RX
+$Comp
+L Connector:USB_A J4
+U 1 1 5F43DCA0
+P 1100 6100
+F 0 "J4" H 1157 6567 50  0000 C CNN
+F 1 "USB_A" H 1157 6476 50  0000 C CNN
+F 2 "Connector_USB:USB_A_CONNFLY_DS1095-WNR0" H 1250 6050 50  0001 C CNN
+F 3 " ~" H 1250 6050 50  0001 C CNN
+	1    1100 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5F49DAF0
+P 4700 6150
+F 0 "F1" H 4641 6104 50  0000 R CNN
+F 1 "Fuse" H 4641 6195 50  0000 R CNN
+F 2 "Fuse:Fuse_Littelfuse-NANO2-451_453" V 4630 6150 50  0001 C CNN
+F 3 "~" H 4700 6150 50  0001 C CNN
+	1    4700 6150
+	1    0    0    1   
+$EndComp
+Wire Notes Line
+	3700 5750 4950 5750
+Wire Notes Line
+	4950 5750 4950 6450
+Wire Notes Line
+	4950 6450 3700 6450
+Wire Notes Line
+	3700 6450 3700 5750
+Text Notes 3700 5750 0    50   ~ 0
+Protection
+Wire Wire Line
+	4700 6300 4550 6300
+Wire Wire Line
+	4700 6000 4550 6000
+$Comp
+L power:+5V #PWR012
+U 1 1 5F4C1203
+P 4550 6300
+F 0 "#PWR012" H 4550 6150 50  0001 C CNN
+F 1 "+5V" V 4565 6428 50  0000 L CNN
+F 2 "" H 4550 6300 50  0001 C CNN
+F 3 "" H 4550 6300 50  0001 C CNN
+	1    4550 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PocketBeagle:VDD_5V #SUPPLY01
+U 1 1 5F4D0B80
+P 4450 6000
+F 0 "#SUPPLY01" H 4450 6000 45  0001 L BNN
+F 1 "VDD_5V" V 4450 6128 45  0000 L CNN
+F 2 "" H 4450 6000 60  0001 C CNN
+F 3 "" H 4450 6000 60  0001 C CNN
+	1    4450 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PocketBeagle:USB_DC #SUPPLY0101
+U 1 1 5F5484EA
+P 2700 5800
+F 0 "#SUPPLY0101" H 2700 5800 45  0001 L BNN
+F 1 "USB_DC" H 2700 5970 45  0000 C CNN
+F 2 "" H 2700 5800 60  0001 C CNN
+F 3 "" H 2700 5800 60  0001 C CNN
+	1    2700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Plug_USB2.0 P1
+U 1 1 5F417B82
+P 2100 6500
+F 0 "P1" H 2207 7367 50  0000 C CNN
+F 1 "USB_C_Plug_USB2.0" H 2207 7276 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 2250 6500 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2250 6500 50  0001 C CNN
+	1    2100 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PocketBeagle:USB_DC #SUPPLY0102
+U 1 1 5F55060E
+P 1400 5800
+F 0 "#SUPPLY0102" H 1400 5800 45  0001 L BNN
+F 1 "USB_DC" H 1400 5970 45  0000 C CNN
+F 2 "" H 1400 5800 60  0001 C CNN
+F 3 "" H 1400 5800 60  0001 C CNN
+	1    1400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F55685C
+P 2100 7400
+F 0 "#PWR0102" H 2100 7150 50  0001 C CNN
+F 1 "GND" H 2105 7227 50  0000 C CNN
+F 2 "" H 2100 7400 50  0001 C CNN
+F 3 "" H 2100 7400 50  0001 C CNN
+	1    2100 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F550CC3
+P 1100 6500
+F 0 "#PWR0103" H 1100 6250 50  0001 C CNN
+F 1 "GND" H 1105 6327 50  0000 C CNN
+F 2 "" H 1100 6500 50  0001 C CNN
+F 3 "" H 1100 6500 50  0001 C CNN
+	1    1100 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Micro_SD_Card J3
+U 1 1 5F41A1B0
+P 7850 4800
+F 0 "J3" H 7800 5517 50  0000 C CNN
+F 1 "Micro_SD_Card" H 7800 5426 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Hirose_DM3D-SF" H 9000 5100 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 7850 4800 50  0001 C CNN
+	1    7850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J2
+U 1 1 5F41AF2E
+P 9550 4450
+F 0 "J2" H 9600 5567 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 9600 5476 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x20_P1.00mm_Vertical" H 9550 4450 50  0001 C CNN
+F 3 "~" H 9550 4450 50  0001 C CNN
+	1    9550 4450
+	1    0    0    -1  
+$EndComp
+Text Label 8950 3650 0    50   ~ 0
+UART_RX
+$EndSCHEMATC
