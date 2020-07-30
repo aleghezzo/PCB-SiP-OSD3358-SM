@@ -51,17 +51,6 @@ F 3 "" H 1350 2450 50  0001 C CNN
 	1    1350 2450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Micro_SD_Card J3
-U 1 1 5F41A1B0
-P 9700 1900
-F 0 "J3" H 9650 2617 50  0000 C CNN
-F 1 "Micro_SD_Card" H 9650 2526 50  0000 C CNN
-F 2 "Connector_Card:microSD_HC_Hirose_DM3D-SF" H 10850 2200 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 9700 1900 50  0001 C CNN
-	1    9700 1900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1350 2300 1350 2450
 Wire Wire Line
@@ -80,8 +69,6 @@ Text Label 8950 3550 0    50   ~ 0
 UART_TX
 Wire Wire Line
 	9350 3650 8950 3650
-Text Label 8950 3650 0    50   ~ 0
-UART_RX
 Text Label 8450 2850 0    50   ~ 0
 UART_TX
 Wire Wire Line
@@ -126,17 +113,6 @@ Wire Wire Line
 	4700 6300 4550 6300
 Wire Wire Line
 	4700 6000 4550 6000
-$Comp
-L Connector_Generic:Conn_02x20_Odd_Even J2
-U 1 1 5F41AF2E
-P 9550 4450
-F 0 "J2" H 9600 5567 50  0000 C CNN
-F 1 "Conn_02x20_Odd_Even" H 9600 5476 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_2x20_P1.00mm_Vertical" H 9550 4450 50  0001 C CNN
-F 3 "~" H 9550 4450 50  0001 C CNN
-	1    9550 4450
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR012
 U 1 1 5F4C1203
@@ -214,4 +190,28 @@ F 3 "" H 1100 6500 50  0001 C CNN
 	1    1100 6500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Micro_SD_Card J3
+U 1 1 5F41A1B0
+P 7850 4800
+F 0 "J3" H 7800 5517 50  0000 C CNN
+F 1 "Micro_SD_Card" H 7800 5426 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Hirose_DM3D-SF" H 9000 5100 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 7850 4800 50  0001 C CNN
+	1    7850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J2
+U 1 1 5F41AF2E
+P 9550 4450
+F 0 "J2" H 9600 5567 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 9600 5476 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x20_P1.00mm_Vertical" H 9550 4450 50  0001 C CNN
+F 3 "~" H 9550 4450 50  0001 C CNN
+	1    9550 4450
+	1    0    0    -1  
+$EndComp
+Text Label 8950 3650 0    50   ~ 0
+UART_RX
 $EndSCHEMATC
