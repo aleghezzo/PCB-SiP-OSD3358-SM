@@ -1,4 +1,4 @@
-18721466248041053
+18815489686088307
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82446,6 +82446,419 @@ VPAC1
 1
 1
 footprints
+VPAC2
+
+
+0
+1
+1
+pocketbeagle
+0402
+
+
+0
+2
+2
+pocketbeagle
+0603
+
+
+0
+2
+2
+pocketbeagle
+0603-LED
+
+
+0
+2
+2
+pocketbeagle
+0805
+
+
+0
+2
+2
+pocketbeagle
+0805-LED
+
+
+0
+2
+2
+pocketbeagle
+10118192-0001LF(MICRO-USB-B-AMPHENOL-FCI)
+
+
+0
+11
+6
+pocketbeagle
+B1_27
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+B2_54
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+CRYSTAL_5X3.2MM
+
+
+0
+2
+2
+pocketbeagle
+FIDUCIAL_40MIL
+
+
+0
+1
+1
+pocketbeagle
+MICROSD
+
+
+0
+13
+13
+pocketbeagle
+MINI_PUSHBUTTON
+
+
+0
+4
+4
+pocketbeagle
+OSD335X-BGA-256
+
+
+0
+256
+256
+pocketbeagle
+P1-13
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+P1-13Y
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+P1-17
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+P1-17Y
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+P1-20
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+P1-20Y
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+RN0804
+
+
+0
+8
+8
+pocketbeagle
+SC70(TI-DCK)
+
+
+0
+5
+5
+pocketbeagle
+SON-6(TI)-DRY
+
+
+0
+6
+6
+pocketbeagle
+TH-2X18
+
+
+0
+36
+36
+pocketbeagle
+TH-2X18-(35MIL-DIA)
+
+
+0
+36
+36
+pocketbeagle
+TH-2X18-(35MIL-DIA)-W_O-SILK
+
+
+0
+36
+36
+pocketbeagle
+TH-2X18-W_O-SILK
+
+
+0
+36
+36
+pocketbeagle
+TP06R
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP06SQ
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP07R
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP07SQ
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP08R
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP08SQ
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP09R
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP09SQ
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP10R
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP10SQ
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP11R
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP11SQ
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP12R
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP12SQ
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP13R
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP13SQ
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP14R
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP14SQ
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP15R
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP15SQ
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP16R
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP16SQ
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP17R
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP17SQ
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP18R
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP18SQ
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP19R
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP19SQ
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP20R
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+TP20SQ
+TEST PAD
+TEST PAD
+0
+1
+1
+pocketbeagle
+VPAC0
+
+
+0
+1
+1
+pocketbeagle
+VPAC1
+
+
+0
+1
+1
+pocketbeagle
 VPAC2
 
 

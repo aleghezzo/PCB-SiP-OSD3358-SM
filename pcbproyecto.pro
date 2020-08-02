@@ -1,4 +1,4 @@
-update=mié 29 jul 2020 21:08:36 -03
+update=dom 02 ago 2020 12:03:30 -03
 version=1
 last_client=kicad
 [general]
@@ -47,8 +47,8 @@ ViaDiameter2=0.4572
 ViaDrill2=0.254
 ViaDiameter3=0.6096
 ViaDrill3=0.3048
-dPairWidth1=0.2
-dPairGap1=0.25
+dPairWidth1=0.2286
+dPairGap1=0.1016
 dPairViaGap1=0.25
 SilkLineWidth=0.12
 SilkTextSizeV=1
@@ -249,8 +249,8 @@ ViaDiameter=0.6096
 ViaDrill=0.3048
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
+dPairWidth=0.2286
+dPairGap=0.1016
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Power
@@ -273,4 +273,15 @@ uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
+Name=USB
+Clearance=0.1
+TrackWidth=0.1524
+ViaDiameter=0.6096
+ViaDrill=0.3048
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2286
+dPairGap=0.1016
 dPairViaGap=0.25
