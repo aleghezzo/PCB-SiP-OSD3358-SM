@@ -31,8 +31,6 @@ $EndComp
 Wire Wire Line
 	2600 1350 2300 1350
 Wire Wire Line
-	2600 1450 2300 1450
-Wire Wire Line
 	2600 1550 2300 1550
 Wire Wire Line
 	2600 1650 2300 1650
@@ -74,10 +72,6 @@ Wire Wire Line
 	1750 1500 1750 1950
 Wire Wire Line
 	1750 1950 2600 1950
-Wire Wire Line
-	4050 1950 4050 1500
-Wire Wire Line
-	3100 1950 4050 1950
 $Comp
 L power:GND #PWR?
 U 1 1 5FF95322
@@ -109,39 +103,41 @@ $EndComp
 $Comp
 L PocketBeagle:VDD_5V #SUPPLY?
 U 1 1 5FF95332
-P 4050 1400
+P 1950 1150
 AR Path="/5F8143D2/5FF95332" Ref="#SUPPLY?"  Part="1" 
 AR Path="/5F0E396B/5FF95332" Ref="#SUPPLY02"  Part="1" 
 AR Path="/5F55F329/5FF95332" Ref="#SUPPLY?"  Part="1" 
-F 0 "#SUPPLY02" H 4050 1400 45  0001 L BNN
-F 1 "VDD_5V" H 4050 1570 45  0000 C CNN
-F 2 "" H 4050 1400 60  0001 C CNN
-F 3 "" H 4050 1400 60  0001 C CNN
-	1    4050 1400
+F 0 "#SUPPLY02" H 1950 1150 45  0001 L BNN
+F 1 "VDD_5V" H 1950 1320 45  0000 C CNN
+F 2 "" H 1950 1150 60  0001 C CNN
+F 3 "" H 1950 1150 60  0001 C CNN
+	1    1950 1150
 	1    0    0    -1  
 $EndComp
-Text HLabel 3400 1550 2    50   Input ~ 0
-UART0_RX
-Text HLabel 3400 1650 2    50   Output ~ 0
-UART0_TX
-Text HLabel 2300 1350 0    50   Input ~ 0
-ANGL0
-Text HLabel 2300 1450 0    50   Input ~ 0
-MBUS_RST
-Text HLabel 2300 1550 0    50   Input ~ 0
-SPI0_CS0
-Text HLabel 2300 1650 0    50   Input ~ 0
-SPI0_SCLK
-Text HLabel 2300 1750 0    50   Input ~ 0
-SPI0_D0
-Text HLabel 2300 1850 0    50   Input ~ 0
-SPI0_D1
-Text HLabel 3400 1350 2    50   Input ~ 0
-ECAP_PWM0
-Text HLabel 3400 1450 2    50   Input ~ 0
-MBUS_INT
 Text HLabel 3400 1750 2    50   Input ~ 0
-I2C_SCL
-Text HLabel 3400 1850 2    50   Input ~ 0
-I2C0_SDA
+UART0_RX
+Text HLabel 3400 1850 2    50   Output ~ 0
+UART0_TX
+Text HLabel 2300 1850 0    50   Input ~ 0
+ANGL0
+Text HLabel 3400 1950 2    50   Input ~ 0
+MBUS_RST
+Text HLabel 3400 1350 2    50   Input ~ 0
+SPI0_CS0
+Text HLabel 3400 1450 2    50   Input ~ 0
+SPI0_SCLK
+Text HLabel 3400 1550 2    50   Input ~ 0
+SPI0_D0
+Text HLabel 3400 1650 2    50   Input ~ 0
+SPI0_D1
+Wire Wire Line
+	1950 1250 1950 1450
+Wire Wire Line
+	1950 1450 2600 1450
+Wire Wire Line
+	3400 1950 3100 1950
+Text HLabel 2300 1650 0    50   Input ~ 0
+MBUS_INT
+Text HLabel 2300 1750 0    50   Input ~ 0
+ECAP_PWM0
 $EndSCHEMATC

@@ -208,6 +208,58 @@ Wire Wire Line
 	5300 4050 6150 4050
 Text Label 5550 4050 0    50   ~ 0
 USB1_VBU
+Wire Wire Line
+	5300 3350 5650 3350
+Wire Wire Line
+	5650 2900 6500 2900
+Wire Wire Line
+	5650 2900 5650 3350
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 5FC460AD
+P 2500 7150
+F 0 "FID3" H 2585 7196 50  0000 L CNN
+F 1 "Fiducial" H 2600 7100 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2500 7150 50  0001 C CNN
+F 3 "~" H 2500 7150 50  0001 C CNN
+	1    2500 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID4
+U 1 1 5FC4630D
+P 2500 7300
+F 0 "FID4" H 2600 7300 50  0000 L CNN
+F 1 "Fiducial" H 2600 7200 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2500 7300 50  0001 C CNN
+F 3 "~" H 2500 7300 50  0001 C CNN
+	1    2500 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5FC4689D
+P 2350 7150
+F 0 "FID1" H 2100 7200 50  0000 L CNN
+F 1 "Fiducial" H 1950 7100 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2350 7150 50  0001 C CNN
+F 3 "~" H 2350 7150 50  0001 C CNN
+	1    2350 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5FC46A08
+P 2350 7300
+F 0 "FID2" H 2100 7300 50  0000 L CNN
+F 1 "Fiducial" H 1950 7200 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2350 7300 50  0001 C CNN
+F 3 "~" H 2350 7300 50  0001 C CNN
+	1    2350 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 1700 6500 1700
 $Sheet
 S 2450 3350 2850 1500
 U 5F8143D2
@@ -228,11 +280,21 @@ F13 "MMC0_DAT2" I R 5300 3550 50
 F14 "MMC0_CMD" I R 5300 3850 50 
 F15 "MMC0_DAT3" I R 5300 3450 50 
 F16 "MMC0_CD" I R 5300 3350 50 
+F17 "I2C0_SDA" B L 2450 4550 50 
+F18 "I2C0_SCL" B L 2450 4650 50 
 $EndSheet
+Text Label 2300 4650 2    50   ~ 0
+I2C1_SCL
+Text Label 2300 4550 2    50   ~ 0
+I2C1_SDA
+Text Label 6300 1800 2    50   ~ 0
+I2C1_SDA
+Text Label 6300 1700 2    50   ~ 0
+I2C1_SCL
 Wire Wire Line
-	5300 3350 5650 3350
+	6300 1800 6500 1800
 Wire Wire Line
-	5650 2900 6500 2900
+	2300 4550 2450 4550
 Wire Wire Line
-	5650 2900 5650 3350
+	2300 4650 2450 4650
 $EndSCHEMATC

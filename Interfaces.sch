@@ -1,0 +1,695 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PocketBeagle:USB_DC #SUPPLY?
+U 1 1 5F81B1B9
+P 5250 1450
+AR Path="/5F81B1B9" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5F8143D2/5F81B1B9" Ref="#SUPPLY08"  Part="1" 
+AR Path="/5FC48F0B/5F81B1B9" Ref="#SUPPLY?"  Part="1" 
+F 0 "#SUPPLY08" H 5250 1450 45  0001 L BNN
+F 1 "USB_DC" H 5250 1620 45  0000 C CNN
+F 2 "" H 5250 1450 60  0001 C CNN
+F 3 "" H 5250 1450 60  0001 C CNN
+	1    5250 1450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F81B1C5
+P 4850 2150
+AR Path="/5F81B1C5" Ref="#PWR?"  Part="1" 
+AR Path="/5F8143D2/5F81B1C5" Ref="#PWR09"  Part="1" 
+AR Path="/5FC48F0B/5F81B1C5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR09" H 4850 1900 50  0001 C CNN
+F 1 "GND" H 4855 1977 50  0000 C CNN
+F 2 "" H 4850 2150 50  0001 C CNN
+F 3 "" H 4850 2150 50  0001 C CNN
+	1    4850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_A J?
+U 1 1 5F831223
+P 2200 1750
+AR Path="/5F831223" Ref="J?"  Part="1" 
+AR Path="/5F8143D2/5F831223" Ref="J3"  Part="1" 
+AR Path="/5FC48F0B/5F831223" Ref="J?"  Part="1" 
+F 0 "J3" H 2257 2217 50  0000 C CNN
+F 1 "USB_A" H 2257 2126 50  0000 C CNN
+F 2 "Connector_USB:USB_A_CONNFLY_DS1095-WNR0" H 2350 1700 50  0001 C CNN
+F 3 " ~" H 2350 1700 50  0001 C CNN
+	1    2200 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F83122F
+P 2200 2150
+AR Path="/5F83122F" Ref="#PWR?"  Part="1" 
+AR Path="/5F8143D2/5F83122F" Ref="#PWR06"  Part="1" 
+AR Path="/5FC48F0B/5F83122F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR06" H 2200 1900 50  0001 C CNN
+F 1 "GND" H 2205 1977 50  0000 C CNN
+F 2 "" H 2200 2150 50  0001 C CNN
+F 3 "" H 2200 2150 50  0001 C CNN
+	1    2200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PocketBeagle:MINI_PUSHBUTTON PWR?
+U 1 1 5F9CF6FC
+P 2200 3600
+AR Path="/5F0E3947/5F9CF6FC" Ref="PWR?"  Part="1" 
+AR Path="/5F8143D2/5F9CF6FC" Ref="PWR1"  Part="1" 
+AR Path="/5FC48F0B/5F9CF6FC" Ref="PWR?"  Part="1" 
+F 0 "PWR1" H 2100 3750 45  0000 C CNN
+F 1 "PSH_BTN" H 2250 3450 45  0000 C CNN
+F 2 "footprints:MINI_PUSHBUTTON" H 2230 3750 20  0001 C CNN
+F 3 "" H 2200 3600 60  0001 C CNN
+	1    2200 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2000 3500 1900 3500
+Wire Wire Line
+	1900 3500 1900 3600
+Wire Wire Line
+	1900 3600 2000 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5F9CF706
+P 2400 3500
+AR Path="/5F0E3947/5F9CF706" Ref="#PWR?"  Part="1" 
+AR Path="/5F8143D2/5F9CF706" Ref="#PWR07"  Part="1" 
+AR Path="/5FC48F0B/5F9CF706" Ref="#PWR?"  Part="1" 
+F 0 "#PWR07" H 2400 3250 50  0001 C CNN
+F 1 "GND" H 2250 3450 50  0000 C CNN
+F 2 "" H 2400 3500 50  0001 C CNN
+F 3 "" H 2400 3500 50  0001 C CNN
+	1    2400 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 3600 2400 3500
+Connection ~ 2400 3500
+Connection ~ 1900 3600
+Wire Wire Line
+	1500 3600 1900 3600
+Text HLabel 1500 3600 0    50   Input ~ 0
+PWR_ON
+Wire Wire Line
+	1900 4450 1900 4350
+Connection ~ 1900 4350
+$Comp
+L power:GND #PWR?
+U 1 1 5FF684CD
+P 1900 4200
+AR Path="/5FF684CD" Ref="#PWR?"  Part="1" 
+AR Path="/5F8143D2/5FF684CD" Ref="#PWR05"  Part="1" 
+AR Path="/5FC48F0B/5FF684CD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR05" H 1900 3950 50  0001 C CNN
+F 1 "GND" H 1905 4027 50  0000 C CNN
+F 2 "" H 1900 4200 50  0001 C CNN
+F 3 "" H 1900 4200 50  0001 C CNN
+	1    1900 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 4350 1900 4200
+Wire Wire Line
+	1900 4550 1750 4550
+Text HLabel 1750 4550 0    50   Output ~ 0
+IN_PWR_SUPPLY
+$Comp
+L Connector:Barrel_Jack_Switch J?
+U 1 1 5FF684C5
+P 2200 4450
+AR Path="/5FF684C5" Ref="J?"  Part="1" 
+AR Path="/5F8143D2/5FF684C5" Ref="J1"  Part="1" 
+AR Path="/5FC48F0B/5FF684C5" Ref="J?"  Part="1" 
+F 0 "J1" H 2257 4767 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 2257 4676 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 2250 4410 50  0001 C CNN
+F 3 "~" H 2250 4410 50  0001 C CNN
+	1    2200 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L PocketBeagle:CGND #SUPPLY07
+U 1 1 5F2938A2
+P 1750 2250
+AR Path="/5F8143D2/5F2938A2" Ref="#SUPPLY07"  Part="1" 
+AR Path="/5FC48F0B/5F2938A2" Ref="#SUPPLY?"  Part="1" 
+F 0 "#SUPPLY07" H 1750 2250 45  0001 L BNN
+F 1 "CGND" H 1725 2080 45  0000 C CNN
+F 2 "" H 1750 2250 60  0001 C CNN
+F 3 "" H 1750 2250 60  0001 C CNN
+	1    1750 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2150 2100 2150
+Text HLabel 2500 1750 2    50   BiDi ~ 0
+USB1_D+
+Text HLabel 2500 1850 2    50   BiDi ~ 0
+USB1_D-
+Text HLabel 5150 1750 2    50   BiDi ~ 0
+USB0_D+
+$Comp
+L PocketBeagle:CGND #SUPPLY0101
+U 1 1 5F58381A
+P 4450 2250
+AR Path="/5F8143D2/5F58381A" Ref="#SUPPLY0101"  Part="1" 
+AR Path="/5FC48F0B/5F58381A" Ref="#SUPPLY?"  Part="1" 
+F 0 "#SUPPLY0101" H 4450 2250 45  0001 L BNN
+F 1 "CGND" H 4425 2080 45  0000 C CNN
+F 2 "" H 4450 2250 60  0001 C CNN
+F 3 "" H 4450 2250 60  0001 C CNN
+	1    4450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro J5
+U 1 1 5F586FA3
+P 4850 1750
+AR Path="/5F8143D2/5F586FA3" Ref="J5"  Part="1" 
+AR Path="/5FC48F0B/5F586FA3" Ref="J?"  Part="1" 
+F 0 "J5" H 4907 2217 50  0000 C CNN
+F 1 "USB_B_Micro" H 4907 2126 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Amphenol_10104110_Horizontal" H 5000 1700 50  0001 C CNN
+F 3 "~" H 5000 1700 50  0001 C CNN
+	1    4850 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2150 4450 2150
+Wire Wire Line
+	5150 1950 5250 1950
+Text HLabel 5150 1850 2    50   BiDi ~ 0
+USB0_D-
+Wire Wire Line
+	5150 1550 5250 1550
+Text HLabel 5250 1950 2    50   Input ~ 0
+USB0_ID
+Text HLabel 2500 1550 2    50   Input ~ 0
+USB1_VBUS
+Text HLabel 7100 3700 0    50   Input ~ 0
+MMC0_CLK
+Text HLabel 7100 4100 0    50   Input ~ 0
+MMC0_DAT3
+Text HLabel 7100 3800 0    50   Input ~ 0
+MMC0_DAT0
+Text HLabel 7100 3900 0    50   Input ~ 0
+MMC0_DAT1
+Text HLabel 7100 4000 0    50   Input ~ 0
+MMC0_DAT2
+$Comp
+L PocketBeagle:VDD_3V3B #SUPPLY023
+U 1 1 5F759B9D
+P 8100 2200
+AR Path="/5F8143D2/5F759B9D" Ref="#SUPPLY023"  Part="1" 
+AR Path="/5FC48F0B/5F759B9D" Ref="#SUPPLY?"  Part="1" 
+F 0 "#SUPPLY023" H 8100 2200 45  0001 L BNN
+F 1 "VDD_3V3B" H 8100 2370 45  0000 C CNN
+F 2 "" H 8100 2200 60  0001 C CNN
+F 3 "" H 8100 2200 60  0001 C CNN
+	1    8100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PocketBeagle:CGND #SUPPLY013
+U 1 1 5F75BAFB
+P 8350 5550
+AR Path="/5F8143D2/5F75BAFB" Ref="#SUPPLY013"  Part="1" 
+AR Path="/5FC48F0B/5F75BAFB" Ref="#SUPPLY?"  Part="1" 
+F 0 "#SUPPLY013" H 8350 5550 45  0001 L BNN
+F 1 "CGND" H 8325 5380 45  0000 C CNN
+F 2 "" H 8350 5550 60  0001 C CNN
+F 3 "" H 8350 5550 60  0001 C CNN
+	1    8350 5550
+	1    0    0    -1  
+$EndComp
+Text HLabel 7100 4200 0    50   Input ~ 0
+MMC0_CMD
+$Comp
+L power:GND #PWR08
+U 1 1 5F75D61E
+P 8700 4000
+AR Path="/5F8143D2/5F75D61E" Ref="#PWR08"  Part="1" 
+AR Path="/5FC48F0B/5F75D61E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR08" H 8700 3750 50  0001 C CNN
+F 1 "GND" V 8705 3827 50  0000 C CNN
+F 2 "" H 8700 4000 50  0001 C CNN
+F 3 "" H 8700 4000 50  0001 C CNN
+	1    8700 4000
+	-1   0    0    1   
+$EndComp
+Text Notes 6550 5700 0    50   ~ 0
+MicroSD
+Wire Notes Line
+	4050 1200 6350 1200
+Wire Notes Line
+	6350 1200 6350 2550
+Wire Notes Line
+	6350 2550 4050 2550
+Wire Notes Line
+	4050 2550 4050 1200
+Text Notes 4050 1150 0    50   ~ 0
+USB - Micro B - HOST
+Wire Notes Line
+	2800 3300 2800 4900
+Wire Notes Line
+	2800 4900 1050 4900
+Wire Notes Line
+	1050 4900 1050 3300
+Wire Notes Line
+	2800 3300 1050 3300
+Text Notes 1050 3250 0    50   ~ 0
+POWER ON
+Wire Notes Line
+	950  1250 3100 1250
+Wire Notes Line
+	3100 1250 3100 2500
+Wire Notes Line
+	3100 2500 950  2500
+Wire Notes Line
+	950  2500 950  1250
+Text Notes 950  1200 0    50   ~ 0
+USB A - CLIENT
+$Comp
+L PocketBeagle:VDD_3V3B #SUPPLY024
+U 1 1 5F7A1BA8
+P 8900 3900
+AR Path="/5F8143D2/5F7A1BA8" Ref="#SUPPLY024"  Part="1" 
+AR Path="/5FC48F0B/5F7A1BA8" Ref="#SUPPLY?"  Part="1" 
+F 0 "#SUPPLY024" H 8900 3900 45  0001 L BNN
+F 1 "VDD_3V3B" V 8900 4200 45  0000 C CNN
+F 2 "" H 8900 3900 60  0001 C CNN
+F 3 "" H 8900 3900 60  0001 C CNN
+	1    8900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PocketBeagle:VDD_3V3B #SUPPLY025
+U 1 1 5F7AAFFE
+P 9200 2550
+AR Path="/5F8143D2/5F7AAFFE" Ref="#SUPPLY025"  Part="1" 
+AR Path="/5FC48F0B/5F7AAFFE" Ref="#SUPPLY?"  Part="1" 
+F 0 "#SUPPLY025" H 9200 2550 45  0001 L BNN
+F 1 "VDD_3V3B" H 9200 2720 45  0000 C CNN
+F 2 "" H 9200 2550 60  0001 C CNN
+F 3 "" H 9200 2550 60  0001 C CNN
+	1    9200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5F7ABBE8
+P 8950 2850
+AR Path="/5F8143D2/5F7ABBE8" Ref="C8"  Part="1" 
+AR Path="/5FC48F0B/5F7ABBE8" Ref="C?"  Part="1" 
+F 0 "C8" H 8850 2950 50  0000 L CNN
+F 1 "10uF, 10V" H 8550 2750 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J" H 8988 2700 50  0001 C CNN
+F 3 "~" H 8950 2850 50  0001 C CNN
+	1    8950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5F7ABF6F
+P 9450 2850
+AR Path="/5F8143D2/5F7ABF6F" Ref="C9"  Part="1" 
+AR Path="/5FC48F0B/5F7ABF6F" Ref="C?"  Part="1" 
+F 0 "C9" H 9565 2896 50  0000 L CNN
+F 1 "0.1uF 6,3V" H 9565 2805 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J" H 9488 2700 50  0001 C CNN
+F 3 "~" H 9450 2850 50  0001 C CNN
+	1    9450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5F7ACA43
+P 9200 3050
+AR Path="/5F8143D2/5F7ACA43" Ref="#PWR013"  Part="1" 
+AR Path="/5FC48F0B/5F7ACA43" Ref="#PWR?"  Part="1" 
+F 0 "#PWR013" H 9200 2800 50  0001 C CNN
+F 1 "GND" H 9205 2877 50  0000 C CNN
+F 2 "" H 9200 3050 50  0001 C CNN
+F 3 "" H 9200 3050 50  0001 C CNN
+	1    9200 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 2700 9200 2700
+Wire Wire Line
+	9450 3000 9200 3000
+Wire Wire Line
+	9200 3000 9200 3050
+Connection ~ 9200 3000
+Wire Wire Line
+	9200 3000 8950 3000
+Wire Wire Line
+	9200 2650 9200 2700
+Connection ~ 9200 2700
+Wire Wire Line
+	9200 2700 9450 2700
+$Comp
+L PocketBeagle:MICROSD U5
+U 1 1 5F8496DD
+P 8600 4850
+AR Path="/5F8143D2/5F8496DD" Ref="U5"  Part="1" 
+AR Path="/5FC48F0B/5F8496DD" Ref="U?"  Part="1" 
+F 0 "U5" V 9170 5050 45  0000 C CNN
+F 1 "MICROSD" V 9254 5050 45  0000 C CNN
+F 2 "pocketbeagle:MICROSD" H 8630 5000 20  0001 C CNN
+F 3 "" H 8600 4850 60  0001 C CNN
+	1    8600 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8100 5150 8100 5250
+Wire Wire Line
+	8100 5450 8350 5450
+Connection ~ 8100 5250
+Wire Wire Line
+	8100 5250 8100 5450
+Wire Wire Line
+	9500 5450 9500 5250
+Wire Wire Line
+	8350 5450 9500 5450
+Connection ~ 8350 5450
+Connection ~ 9500 5250
+Wire Wire Line
+	9500 5250 9500 5150
+$Comp
+L PocketBeagle:RESISTOR.NETWORK-_4_ RN1
+U 1 1 5F85E04E
+P 7800 2500
+AR Path="/5F8143D2/5F85E04E" Ref="RN1"  Part="1" 
+AR Path="/5FC48F0B/5F85E04E" Ref="RN?"  Part="1" 
+F 0 "RN1" V 7750 2100 45  0000 L CNN
+F 1 "10K" V 7900 2100 45  0000 L CNN
+F 2 "pocketbeagle:RN0804" H 7830 2650 20  0001 C CNN
+F 3 "" H 7800 2500 60  0001 C CNN
+	1    7800 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L PocketBeagle:RESISTOR.NETWORK-_4_ RN2
+U 1 1 5F862C0A
+P 8300 2500
+AR Path="/5F8143D2/5F862C0A" Ref="RN2"  Part="1" 
+AR Path="/5FC48F0B/5F862C0A" Ref="RN?"  Part="1" 
+F 0 "RN2" V 8250 2100 45  0000 L CNN
+F 1 "10K" V 8400 2100 45  0000 L CNN
+F 2 "pocketbeagle:RN0804" H 8330 2650 20  0001 C CNN
+F 3 "" H 8300 2500 60  0001 C CNN
+	1    8300 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 2300 8400 2300
+Connection ~ 7800 2300
+Wire Wire Line
+	7800 2300 7700 2300
+Connection ~ 7900 2300
+Wire Wire Line
+	7900 2300 7800 2300
+Connection ~ 8000 2300
+Wire Wire Line
+	8000 2300 7900 2300
+Connection ~ 8100 2300
+Wire Wire Line
+	8100 2300 8000 2300
+Connection ~ 8200 2300
+Wire Wire Line
+	8200 2300 8100 2300
+Connection ~ 8300 2300
+Wire Wire Line
+	8300 2300 8200 2300
+Connection ~ 8400 2300
+Wire Wire Line
+	8400 2300 8300 2300
+Wire Wire Line
+	8400 4150 8400 4000
+Wire Wire Line
+	8500 4150 8500 4000
+Wire Wire Line
+	8600 4150 8600 4000
+Wire Wire Line
+	8700 4150 8700 4000
+Wire Wire Line
+	8800 4150 8800 4000
+Wire Wire Line
+	8900 4150 8900 4000
+Wire Wire Line
+	9000 4150 9000 4000
+Wire Wire Line
+	9100 4150 9100 4000
+Wire Wire Line
+	9200 4150 9200 4000
+Text Label 8400 4000 1    50   ~ 0
+MMC0_CD
+Text Label 8500 4000 1    50   ~ 0
+MMC0_DAT1
+Text Label 8600 4000 1    50   ~ 0
+MMC0_DAT0
+Text Label 8800 4000 1    50   ~ 0
+MMC0_CLK
+Text Label 9000 4000 1    50   ~ 0
+MMC0_CMD
+Text Label 9100 4000 1    50   ~ 0
+MMC0_DAT3
+Text Label 9200 4000 1    50   ~ 0
+MMC0_DAT2
+Wire Wire Line
+	8500 2700 8500 2850
+Wire Wire Line
+	8400 2700 8400 2850
+Wire Wire Line
+	8300 2700 8300 2850
+Wire Wire Line
+	8200 2700 8200 2850
+Wire Wire Line
+	8000 2700 8000 2850
+Wire Wire Line
+	7900 2700 7900 2850
+Wire Wire Line
+	7800 2700 7800 2850
+Wire Wire Line
+	7700 2700 7700 2850
+Text Label 8200 2850 3    50   ~ 0
+MMC0_CD
+Text Label 8300 2850 3    50   ~ 0
+MMC0_DAT1
+Text Label 8400 2850 3    50   ~ 0
+MMC0_DAT0
+Text Label 7700 2850 3    50   ~ 0
+MMC0_CLK
+Text Label 7800 2850 3    50   ~ 0
+MMC0_CMD
+Text Label 7900 2850 3    50   ~ 0
+MMC0_DAT3
+Text Label 8000 2850 3    50   ~ 0
+MMC0_DAT2
+NoConn ~ 8500 2850
+Wire Wire Line
+	7100 4300 7250 4300
+Wire Wire Line
+	7100 3800 7250 3800
+Wire Wire Line
+	7100 3900 7250 3900
+Wire Wire Line
+	7100 3700 7250 3700
+Wire Wire Line
+	7100 4200 7250 4200
+Wire Wire Line
+	7100 4000 7250 4000
+Wire Wire Line
+	7100 4100 7250 4100
+Text Label 7250 4300 0    50   ~ 0
+MMC0_CD
+Text Label 7250 3800 0    50   ~ 0
+MMC0_DAT0
+Text Label 7250 3900 0    50   ~ 0
+MMC0_DAT1
+Text Label 7250 3700 0    50   ~ 0
+MMC0_CLK
+Text Label 7250 4200 0    50   ~ 0
+MMC0_CMD
+Text Label 7250 4000 0    50   ~ 0
+MMC0_DAT2
+Text Label 7250 4100 0    50   ~ 0
+MMC0_DAT3
+Text HLabel 7100 4300 0    50   Input ~ 0
+MMC0_CD
+Wire Notes Line
+	6500 5800 10000 5800
+Wire Notes Line
+	3100 5800 6300 5800
+Wire Notes Line
+	6300 5800 6300 2900
+Wire Notes Line
+	6300 2900 3100 2900
+Wire Notes Line
+	3100 2900 3100 5800
+Wire Notes Line
+	10000 1550 10000 5800
+Wire Notes Line
+	6500 1550 6500 5800
+Wire Notes Line
+	6500 1550 10000 1550
+Text Notes 3150 5700 0    50   ~ 0
+EEPROM
+$Comp
+L Memory_EEPROM:24LC32 U6
+U 1 1 5FC4EE07
+P 4350 4150
+F 0 "U6" H 4150 4450 50  0000 C CNN
+F 1 "24LC32" H 4550 4450 50  0000 C CNN
+F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm" H 4350 4150 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21072G.pdf" H 4350 4150 50  0001 C CNN
+	1    4350 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4050 3950 4150
+Wire Wire Line
+	3950 4150 3950 4250
+Connection ~ 3950 4150
+Wire Wire Line
+	3950 4150 3850 4150
+Wire Wire Line
+	3850 4150 3850 4450
+Wire Wire Line
+	3850 4450 4100 4450
+$Comp
+L power:GND #PWR014
+U 1 1 5FC561D8
+P 4100 4450
+F 0 "#PWR014" H 4100 4200 50  0001 C CNN
+F 1 "GND" H 4105 4277 50  0000 C CNN
+F 2 "" H 4100 4450 50  0001 C CNN
+F 3 "" H 4100 4450 50  0001 C CNN
+	1    4100 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 4100 4450
+Wire Wire Line
+	4100 4450 4350 4450
+Wire Wire Line
+	4750 4250 4950 4250
+$Comp
+L Connector:Conn_01x01_Female J6
+U 1 1 5FC5AEC5
+P 4950 4650
+F 0 "J6" V 4900 4700 50  0000 L CNN
+F 1 "EEPROM_WP" H 5000 4650 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4950 4650 50  0001 C CNN
+F 3 "~" H 4950 4650 50  0001 C CNN
+	1    4950 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 4250 4950 4450
+Wire Wire Line
+	4350 4450 4850 4450
+Connection ~ 4350 4450
+$Comp
+L Connector:Conn_01x01_Female J4
+U 1 1 5FC5EACE
+P 4850 4650
+F 0 "J4" V 4800 4500 50  0000 L CNN
+F 1 "EEPROM_GND" H 4900 4600 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4850 4650 50  0001 C CNN
+F 3 "~" H 4850 4650 50  0001 C CNN
+	1    4850 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 4250 5050 4250
+Connection ~ 4950 4250
+$Comp
+L Device:R R10
+U 1 1 5FC61376
+P 5200 4250
+F 0 "R10" V 5100 4250 50  0000 C CNN
+F 1 "10K" V 5200 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5130 4250 50  0001 C CNN
+F 3 "~" H 5200 4250 50  0001 C CNN
+	1    5200 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 4150 4950 4050
+Wire Wire Line
+	4950 4050 5250 4050
+Text HLabel 5250 4050 2    50   BiDi ~ 0
+I2C0_SCL
+Wire Wire Line
+	4750 4050 4900 4050
+Wire Wire Line
+	4900 4050 4900 3950
+Wire Wire Line
+	4900 3950 5250 3950
+Text HLabel 5250 3950 2    50   BiDi ~ 0
+I2C0_SDA
+$Comp
+L PocketBeagle:VDD_3V3B #SUPPLY026
+U 1 1 5FC69554
+P 4350 3650
+F 0 "#SUPPLY026" H 4350 3650 45  0001 L BNN
+F 1 "VDD_3V3B" H 4350 3820 45  0000 C CNN
+F 2 "" H 4350 3650 60  0001 C CNN
+F 3 "" H 4350 3650 60  0001 C CNN
+	1    4350 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3750 4350 3850
+Wire Wire Line
+	4350 3750 3650 3750
+Wire Wire Line
+	3650 3750 3650 3900
+Wire Wire Line
+	3650 4450 3850 4450
+Connection ~ 4350 3750
+Connection ~ 3850 4450
+$Comp
+L Device:C C10
+U 1 1 5FC6E738
+P 3650 4050
+F 0 "C10" H 3500 4150 50  0000 L CNN
+F 1 "0.1uF, 6.3V" H 3200 3950 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J" H 3688 3900 50  0001 C CNN
+F 3 "~" H 3650 4050 50  0001 C CNN
+	1    3650 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4200 3650 4450
+Wire Wire Line
+	5700 3750 5700 4250
+Wire Wire Line
+	5700 4250 5350 4250
+Wire Wire Line
+	4350 3750 5700 3750
+Wire Wire Line
+	4950 4150 4750 4150
+$EndSCHEMATC
