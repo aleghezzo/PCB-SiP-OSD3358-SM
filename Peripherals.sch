@@ -124,12 +124,12 @@ Text HLabel 3400 1950 2    50   Input ~ 0
 MBUS_RST
 Text HLabel 3400 1350 2    50   Input ~ 0
 SPI0_CS0
-Text HLabel 3400 1450 2    50   Input ~ 0
-SPI0_SCLK
 Text HLabel 3400 1550 2    50   Input ~ 0
-SPI0_D0
-Text HLabel 3400 1650 2    50   Input ~ 0
+SPI0_SCLK
+Text HLabel 3400 1450 2    50   Input ~ 0
 SPI0_D1
+Text HLabel 3400 1650 2    50   Input ~ 0
+SPI0_D0
 Wire Wire Line
 	1950 1250 1950 1450
 Wire Wire Line
