@@ -1414,10 +1414,6 @@ NoConn ~ 13800 1450
 NoConn ~ 13800 1550
 NoConn ~ 13800 1650
 NoConn ~ 13800 1750
-NoConn ~ 13800 1850
-NoConn ~ 13800 1950
-NoConn ~ 13800 2050
-NoConn ~ 13800 2150
 NoConn ~ 13800 2250
 NoConn ~ 13800 2350
 NoConn ~ 13800 2450
@@ -1452,4 +1448,48 @@ Text HLabel 4550 7150 2    50   Input ~ 0
 PMIC_PGOOD
 Text HLabel 4550 7650 2    50   Input ~ 0
 WARMRST
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5F2C20E2
+P 1750 2850
+AR Path="/5F0E3947/5F2C20E2" Ref="TP8"  Part="1" 
+AR Path="/5FB20BFB/5F2C20E2" Ref="TP?"  Part="1" 
+AR Path="/5F55F34C/5F2C20E2" Ref="TP?"  Part="1" 
+F 0 "TP8" V 1850 2850 50  0000 L CNN
+F 1 "TP_SENSE_BAT" V 1750 3100 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1950 2850 50  0001 C CNN
+F 3 "~" H 1950 2850 50  0001 C CNN
+	1    1750 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5F2C2C70
+P 1750 2950
+AR Path="/5F0E3947/5F2C2C70" Ref="TP9"  Part="1" 
+AR Path="/5FB20BFB/5F2C2C70" Ref="TP?"  Part="1" 
+AR Path="/5F55F34C/5F2C2C70" Ref="TP?"  Part="1" 
+F 0 "TP9" V 1650 2950 50  0000 L CNN
+F 1 "TP_TS_BAT" V 1750 3200 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1950 2950 50  0001 C CNN
+F 3 "~" H 1950 2950 50  0001 C CNN
+	1    1750 2950
+	0    -1   -1   0   
+$EndComp
+Text HLabel 13900 2150 2    50   Output ~ 0
+GPIO_A8
+Text HLabel 13900 2050 2    50   Output ~ 0
+GPIO_A7
+Text HLabel 13900 1950 2    50   Output ~ 0
+GPIO_A6
+Text HLabel 13900 1850 2    50   Output ~ 0
+GPIO_A5
+Wire Wire Line
+	13800 1850 13900 1850
+Wire Wire Line
+	13800 1950 13900 1950
+Wire Wire Line
+	13800 2050 13900 2050
+Wire Wire Line
+	13800 2150 13900 2150
 $EndSCHEMATC
