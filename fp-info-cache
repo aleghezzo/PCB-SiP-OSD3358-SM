@@ -1,4 +1,4 @@
-18815489686088307
+18817086363237307
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82109,6 +82109,13 @@ FIDUCIAL_40MIL
 0
 1
 1
+footprints
+Fuse_Littelfuse-NANO2-451_453_With_Model
+Littelfuse NANO2 https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_451_453_datasheet.pdf.pdf
+Fuse Nano2
+0
+2
+2
 footprints
 MICROSD
 
