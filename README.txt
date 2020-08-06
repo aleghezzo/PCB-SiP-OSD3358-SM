@@ -1,6 +1,3 @@
 #TODOs
-## Add 3D Models
-## Add custom peripheral
-## Bill-of-Materials
+## Add 3D Models (more)
 ## PCB Checklist
-## Gerbers & Drill Files
