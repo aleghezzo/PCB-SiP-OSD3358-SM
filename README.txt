@@ -1,3 +1,8 @@
+UTN - Técnicas Digitales II
+TP3: Diseño PCB
+Alumno: Alessandro Ghezzo
+
+-------------------------------------
 #TODOs
-## Add 3D Models (more)
-## PCB Checklist
+## Fully check PCB Checklist
+## Next time, keep the Checklist in mid while "designing".
