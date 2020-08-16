@@ -21,7 +21,7 @@ AR Path="/5FA066D5" Ref="F?"  Part="1"
 AR Path="/5F9E362C/5FA066D5" Ref="F1"  Part="1" 
 F 0 "F1" H 5191 3154 50  0000 R CNN
 F 1 "Fuse" H 5191 3245 50  0000 R CNN
-F 2 "Fuse:Fuse_Littelfuse-NANO2-451_453" V 5180 3200 50  0001 C CNN
+F 2 "footprints:FUSC6125X279N" V 5180 3200 50  0001 C CNN
 F 3 "~" H 5250 3200 50  0001 C CNN
 	1    5250 3200
 	1    0    0    1   

@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.6-c6e7f7d~86~ubuntu18.04.1"
     },
-    "CreationDate":  "2020-08-09T14:30:42-03:00"
+    "CreationDate":  "2020-08-16T12:45:01-03:00"
   },
   "GeneralSpecs":
   {
@@ -29,17 +29,17 @@
   [
     {
       "Layers": "Outer",
-      "PadToPad":  0.152,
-      "PadToTrack":  0.152,
+      "PadToPad":  0.010,
+      "PadToTrack":  0.010,
       "TrackToTrack":  0.100,
       "MinLineWidth":  0.152,
-      "TrackToRegion":  0.508,
-      "RegionToRegion":  0.508
+      "TrackToRegion":  0.380,
+      "RegionToRegion":  0.380
     },
     {
       "Layers": "Inner",
-      "PadToPad":  0.152,
-      "PadToTrack":  0.152,
+      "PadToPad":  0.050,
+      "PadToTrack":  0.050,
       "TrackToTrack":  0.100,
       "MinLineWidth":  0.381,
       "TrackToRegion":  0.508,
